@@ -77,7 +77,7 @@ class CNN(nn.Module): #Defining a class for our CNN model that inherits from nn.
         #Activation function
         self.relu = nn.ReLU() #ReLU introduces non-linearity so model can learn complex patterns
 
-        # def forward(self, x): #Defines how the data flows through the network
+        def forward(self, x): #Defines how the data flows through the network
 
 
 
